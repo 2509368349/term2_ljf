@@ -1,0 +1,28 @@
+.register {
+    height: 1000px;
+    width: 500px;
+    margin: 30px auto;
+}
+
+.register h1 {
+    font-size: 24px;
+}
+
+.register p {
+    margin-bottom: 30px;
+}
+
+.register p input {
+    width: 200px;
+    height: 20px;
+    outline: none;
+}
+
+.error {
+    color: red;
+}
+
+.error:first-child {
+    border: 1px solid red;
+    color: #333;
+}

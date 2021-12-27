@@ -1,0 +1,39 @@
+.model {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    /* 扩展---垂直居中 */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.model .content {
+    width: 400px;
+    height: 250px;
+    background-color: rosybrown;
+    font-size: 30px;
+    color: #fff;
+    /* 1.垂直居中方法 */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    /* 2.垂直居中方法 */
+    /* position: absolute;
+    top: 50%;
+    margin-top: -125px;
+    left: 50%;
+    margin-left: -200px; */
+    /* CSS3垂直居中 */
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+}
